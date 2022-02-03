@@ -85,12 +85,12 @@ img {
   }
 
   h1 {
-    font-size: 1.4rem;
-    line-height: 2;
+    font-size: 1.2rem;
+    line-height: 1.5;
   }
 
   h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 
 /* SEZIONE LEZIONI */
@@ -123,6 +123,9 @@ img {
 
   /* SEZIONE STEPS */
 
+  .container.grey{
+    background-color: white;
+  }
 
   #steps .row>.left,
   #steps .row>.central,
@@ -141,5 +144,28 @@ img {
     align-items: center;
   }
 
-  
-}
+  /* Sezione Why */
+  #why {
+    background-color: bisque;
+  }
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 1rem;
+  }
+
+  #why .row img {
+    border-radius: 50%;
+    padding: 1rem;
+  }
+
+  hr {
+
+    border-bottom: 1px solid rgb(143, 143, 143);
+  }
+
+} 

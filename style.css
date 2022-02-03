@@ -71,3 +71,55 @@ img {
 .clear {
   clear: both;
 }
+
+@media screen and (max-width: 420px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-size: 0.7rem;
+  }
+
+  h1 {
+    font-size: 1.4rem;
+    line-height: 2;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+
+
+  #lezioni {
+    background-color: bisque;
+  }
+
+  .row {
+    max-width: 400px;
+    margin-top: 0;
+
+  }
+
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 95%;
+  float: none;
+  margin: .8rem auto .5rem;
+
+  }
+
+  #lezioni .row img {
+    max-width: auto%;
+    height: 70px;
+  }
+
+  
+
+
+
+}
